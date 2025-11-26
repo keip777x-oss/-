@@ -5,8 +5,7 @@ import discord
 from discord import app_commands
 
 load_dotenv()
-TOKEN = os.getenv("MTQ0MzE1MDQyODY0MzY1OTg5OA.Grg8hS.cdZ9HQX
-_4f5bX9gn2iRsi3LGI7jHoJVKiOyPhE")
+TOKEN = os.getenv("BOT_TOKEN")
 
 if not TOKEN:
     raise SystemExit("BOT_TOKEN がありません。GitHub Secrets に BOT_TOKEN を追加してください")
