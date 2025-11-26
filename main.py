@@ -24,7 +24,7 @@ async def on_ready():
 
 @tree.command(
     name="spam",
-    description="指定したメッセージを1〜50回送信します。"
+    description="指定したメッセージを1〜100回送信します。"
 )
 async def spam(interaction: discord.Interaction, 回数: int, メッセージ: str):
     if 回数 < 1 or 回数 > 100:
